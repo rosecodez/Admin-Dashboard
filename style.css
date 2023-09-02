@@ -5,7 +5,7 @@
 #main-container {
     display: grid;
     grid-template-columns: 300px 900px;
-    grid-template-rows: 100px 100px 500px 100px;
+    grid-template-rows: 150px 180px 536px 116px;
 }
 #sidebar {
     display: grid;
@@ -33,24 +33,47 @@ li {
 #header {
     display: grid;
     background-color: aquamarine;
-    justify-items: center;
-    justify-content: center;
-    grid-column: 2 / 4;
-    gap: 30px;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px;
+    padding-left: 20px;
 }
 #top {
     display: grid;
+    grid-template-columns: 673px 226px;
 }
 #bottom {
     display: grid;
+    grid-template-columns: 55px 621px 177px;
+    align-items: center;
+}
+#left {
+    display: grid;
+    grid-template-columns: 51px 361px;
+    align-items: center;
+}
+#right {
+    display: grid;
+    grid-template-columns: 37px 85px 75px;
+    align-items: center;
+    justify-items: center;
+}
+#buttons {
+    display: grid;
+    grid-template-rows: 30px;
+    grid-auto-flow: column;
+    gap: 10px;
 }
 #main {
     display: grid;
     justify-items: center;
 
-    background-color: red;
+}
+#projects-container {
+    background-color: pink;
+}
+#announcements-container {
+    background-color: burlywood;
+}
+#trending-container {
+    background-color: azure;
 }
 .logo {
     width: 40px;
