@@ -5,8 +5,6 @@
 #main-container {
     display: grid;
     grid-template-columns: 300px 900px;
-    grid-template-rows: 150px 180px 536px 116px;
-    overflow: auto;
 }
 #sidebar {
     display: grid;
@@ -32,18 +30,12 @@ li {
     align-items: center;
 }
 #header {
-    display: grid;
     background-color: aquamarine;
     padding-left: 20px;
 }
 #top {
     display: grid;
     grid-template-columns: 673px 206px;
-}
-#bottom {
-    display: grid;
-    grid-template-columns: 55px 621px 166px;
-    align-items: center;
 }
 #left {
     display: grid;
@@ -56,11 +48,27 @@ li {
     align-items: center;
     justify-items: center;
 }
+#bottom {
+    display: grid;
+    grid-template-columns: 55px 497px 308px;
+    grid-template-rows: 50px;
+    align-items: center;
+}
 #buttons {
     display: grid;
-    grid-template-rows: 30px;
     grid-auto-flow: column;
     gap: 10px;
+}
+button {
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
 }
 #main {
     display: grid;
@@ -69,14 +77,14 @@ li {
 }
 #main-left {
     display: grid;
-    grid-template-rows: 14px 758px;
+    grid-template-rows: 7px 801px;
     background-color: brown;
     padding: 20px;
     gap: 20px;
 }
 #main-right {
     display: grid;
-    grid-template-rows: 14px 352px;
+    grid-template-rows: 7px 352px 7px 401px;
     background-color: brown;
     padding: 20px;
     gap: 20px;
@@ -91,14 +99,23 @@ li {
     padding: 20px;
     border: solid 6px transparent;
     border-left-color: greenyellow;
+    display: grid;
+    border-radius: 15px;
+}
+.logos {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 15px;
 }
 #announcements-container {
     background-color: burlywood;
+    border-radius: 15px;
 }
 #announcements {
     display: grid;
     grid-template-rows: repeat(3, 100px);
-    padding: 20px;
+    padding: 30px;
 }
 .announcement {
     display: grid;
@@ -116,6 +133,17 @@ li {
 
 #trending-container {
     background-color: azure;
+    display: grid;
+    grid-template-rows: repeat(4, 90px);
+    gap: 8px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.trending {
+    display: grid;
 }
 .logo {
     width: 40px;
