@@ -31,10 +31,7 @@ li {
 }
 #header {
     background-color: white;
-    padding-left: 20px;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px #888888;
+    
 }
 input {
     border-radius: 10px;
@@ -44,6 +41,7 @@ input {
     text-transform: capitalize;
     text-shadow: 1px 1px #ccc;
     letter-spacing: 2px;
+    box-shadow: 0 6px 6px -4px rgb(0 0 0 / 30%);
 }
 input:focus {
     background-color: lightblue;
@@ -51,6 +49,7 @@ input:focus {
 #top {
     display: grid;
     grid-template-columns: 673px 206px;
+    padding: 10px;
 }
 #left {
     display: grid;
@@ -68,6 +67,7 @@ input:focus {
     grid-template-columns: 55px 497px 308px;
     grid-template-rows: 50px;
     align-items: center;
+    padding: 10px;
 }
 #buttons {
     display: grid;
@@ -115,6 +115,7 @@ button {
     border-left-color: #34d399;
     display: grid;
     border-radius: 15px;
+    box-shadow: 0 6px 6px -4px rgb(0 0 0 / 30%);
 }
 .logos {
     display: grid;
@@ -122,15 +123,15 @@ button {
     justify-content: end;
     gap: 15px;
 }
-#announcements-container {
-    background-color: white;
-    border-radius: 15px;
-}
+
 #announcements {
     display: grid;
     grid-template-rows: repeat(3, 100px);
     padding: 20px;
     gap: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 6px -4px rgb(0 0 0 / 30%);
 }
 .announcement {
     display: grid;
@@ -155,6 +156,7 @@ button {
     padding-top: 15px;
     font-size: 15px;
     border-radius: 15px;
+    box-shadow: 0 6px 6px -4px rgb(0 0 0 / 30%);
 }
 .trending {
     display: grid;
